@@ -113,5 +113,15 @@ struct K {
 # UITableView
 
 ```
+func tableView(.... numOfRowsInSelection
+
+func tableView(.... cellForRowAtIndexPath
+
+func tableView(.... didSelectRowAtIndexPath
+```
+
+# Custom TableViewCell
+
+```
 
 ```
