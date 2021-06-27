@@ -134,3 +134,19 @@ File ->Swift Packages -> Add Package Dependency
 Edit AppDelegate.swiift
 TableViewCell xib file -> interactions -> disable
 ```
+
+# ViewControllerLifeCycle
+
+```
+viewDidLoad()
+viewWillAppear()
+viewDidAppear()
+viewWillUnappear()
+viewDidDisappear()
+```
+
+# App Life Cycle Methods
+
+```
+
+```
