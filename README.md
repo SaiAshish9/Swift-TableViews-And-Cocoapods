@@ -148,5 +148,11 @@ viewDidDisappear()
 # App Life Cycle Methods
 
 ```
+Upto ios 12 , all life cycle methods used to be at AppDelegate.swift but as of ios13 , especially ipadOS there may be multiple instances of the app. If one of the window goes in background then scene delegate gets notified.
+It treats each window as a separate screen.
 
+N/W changes are handled by sceneDelegate.swift
+
+Mutiple view controllers in one screne, multiple scenes in a app. -> SceneDelegate
+func sceneWillResignActive( sceneDidEnterBackground(
 ```
