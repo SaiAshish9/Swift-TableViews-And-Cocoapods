@@ -64,5 +64,24 @@ ios,'10.0'
 # pod commands
 
 ```
+pod init
+pod install
+pod update
+sudo arch -86_64x gem install fi
+arch -86_64x pod install
+when a line of code which defines a package is removed from podfile , close the xcode , execute pod install and reopen it
+```
 
+
+# Package Manager Options
+
+```
+Cocoapods , carthage and swift package manager.
+
+as of now very few supports swift package manager
+
+file -> swift packages -> add package dependency -> select project -> github url
+
+.podspec file -> cocoapods 
+Package.Swift -> SPM
 ```
