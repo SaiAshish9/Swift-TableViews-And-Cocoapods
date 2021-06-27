@@ -85,3 +85,33 @@ file -> swift packages -> add package dependency -> select project -> github url
 .podspec file -> cocoapods 
 Package.Swift -> SPM
 ```
+
+# Firebase Configuration
+
+```
+add project ->
+request ios app bundle app id->
+download GoogleService-Info.plist configuration file
+Update AppDelegate.swift
+
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+pod install
+```
+
+# Global Constants
+
+```
+struct K {
+  static let a = "A"
+  static A {
+    static let b = "B"
+  }
+}
+```
+
+# UITableView
+
+```
+
+```
