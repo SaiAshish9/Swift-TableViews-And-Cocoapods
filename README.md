@@ -123,5 +123,14 @@ func tableView(.... didSelectRowAtIndexPath
 # Custom TableViewCell
 
 ```
+Views -> New Cocoa Touch Class -> Message Cell (Subclass of UITableViewCell)
+check allow create xib file
+``` 
 
+# hackiftakhar/IQKeyboardManager
+
+```
+File ->Swift Packages -> Add Package Dependency
+Edit AppDelegate.swiift
+TableViewCell xib file -> interactions -> disable
 ```
